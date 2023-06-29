@@ -10,6 +10,18 @@ salvare informazioni dell'utente tramite variabile let e prompt
 unire le stringe e aggiungere 21 usando l'operatore di concatenazione +  */
 
 //inizio
-let nameUser = prompt("qual'è il tuo nome?")
-let surnameUser = prompt("qual'è il tuo cognome?")
-let favoritecolorUser = prompt("qual'è il tuo colore preferito?")
+//prompt
+let nameUser = prompt("qual'è il tuo nome?");
+let surnameUser = prompt("qual'è il tuo cognome?");
+let favoritecolorUser = prompt("qual'è il tuo colore preferito?");
+
+//numero da aggiungere alla password
+let securitynumber = 21;
+
+//unione delle variabili e formazione della password
+
+let password = nameUser + surnameUser + favoritecolorUser + securitynumber;
+
+//stampo su console
+
+console.log(password);
