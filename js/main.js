@@ -33,3 +33,5 @@ let password = nameUser + surnameUser + favoritecolorUser + securitynumber;
 //stampo su console
 
 console.log(password);
+
+document.getElementById("password").innerHTML = password
