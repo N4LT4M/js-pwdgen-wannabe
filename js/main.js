@@ -15,8 +15,16 @@ let nameUser = prompt("qual'è il tuo nome?");
 let surnameUser = prompt("qual'è il tuo cognome?");
 let favoritecolorUser = prompt("qual'è il tuo colore preferito?");
 
-//numero da aggiungere alla password
-let securitynumber = 21;
+//aggiungere due numeri da concatenare per il numero finale
+let firstnumber = prompt('scegli un numero "possibilmente pari"');
+let secondnumber = prompt('scegli un altro numero "possibilmente sempre pari"');
+
+//i numeri arrivati dal prompt sono sotto forma di testo, quindi devo modificarli in numeri
+parseInt(firstnumber);
+parseInt(secondnumber);
+
+//divido il first number per il second number (era 21, modificato per l'obbiettivo bonus)
+let securitynumber = firstnumber / secondnumber;
 
 //unione delle variabili e formazione della password
 
